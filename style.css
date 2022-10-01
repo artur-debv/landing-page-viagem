@@ -1,0 +1,201 @@
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+
+
+.container-2{
+    order: 0;
+    background-color: var(--background);
+    width: 40%;
+    height: 100%;
+    left: 0;
+}
+
+
+.img_2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+.form{
+    height: 355px;
+    background-color:var(--form-background);
+    width: 40%;
+    min-width: 350px;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 100px auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.p_form{
+    float: right;
+    margin-right: 143px;
+    margin-top: 2px;
+    color: var( --text-title);
+}
+
+
+.about_description{
+    color: var(--text-base);
+    margin-bottom: 24px;
+    margin-left: -32px;
+    font-size: 13px;
+}
+
+
+
+.form_form{
+    margin-bottom: -12px;
+}
+
+
+.label_1{
+    margin-left: -134px;
+}
+
+
+.label_2{
+    margin-left: -175px;
+}
+
+
+.label_1{
+    margin-left: -200px;
+    color:var(--text-base)
+}
+
+
+.label,.input_1{
+    margin-bottom: 20px;
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+
+.submit-lente {
+    position:absolute;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+  }
+  
+  .submit-line {
+    position: relative;
+    width: 200px;
+  }
+  
+  .submit-line input {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+.label,.input2{
+    margin-bottom: 20px;
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+.label_for_input{
+    margin-right: 143px;
+margin-left: 8px;
+color:var(--text-base) ;
+}
+
+.checkbox{
+    margin-left: -8px;
+}
+
+
+.href-p{
+    margin-left: 14px;
+    text-decoration: none;
+    color:var(--primary-color) ;
+}
+
+
+.p_href{
+    margin-top: -18px;
+    margin-left: 96px;
+    margin-bottom: 20px;
+}
+
+
+.btn{
+    width: 70%;
+    height: 26px;
+    border: none;
+    background-color: var(--primary-color);
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+
+
+.a_href-_about{
+    text-decoration: none;
+    color:var(--primary-color) ;
+    margin-left: 8px;
+}
+
+
+p{
+    color:var(--primary-color) ;
+}
+
+
+.img_container{
+    height: 100%;
+}
+
+
+.logo_container2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
